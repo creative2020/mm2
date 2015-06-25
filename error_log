@@ -1,0 +1,5 @@
+[24-Mar-2014 17:57:34 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/two020cr/public_html/math2.2020creative.net/wp-content/plugins/social-toolbar/social-toolbar.php on line 129
+[24-Mar-2014 17:59:15 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/two020cr/public_html/math2.2020creative.net/wp-content/plugins/social-toolbar/social-toolbar.php on line 129
+[24-Mar-2014 17:59:25 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/two020cr/public_html/math2.2020creative.net/wp-content/plugins/social-toolbar/social-toolbar.php on line 129
+[16-Oct-2014 16:42:32 UTC] PHP Fatal error:  Call to undefined function builder_register_module_style() in /home/two020cr/public_html/math3.2020creative.net/wp-content/themes/Builder-Air-Math/functions.php on line 47
+[16-Oct-2014 16:52:51 UTC] PHP Fatal error:  Can't use function return value in write context in /home/two020cr/public_html/math3.2020creative.net/wp-content/themes/math/tt-lib/tt-shortcodes.php on line 85

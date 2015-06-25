@@ -1,0 +1,5 @@
+[07-Mar-2015 09:47:51 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/theme-compat/header.php on line 10
+[07-Mar-2015 20:57:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/theme-compat/comments.php on line 10
+[08-Mar-2015 18:52:33 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/theme-compat/sidebar.php on line 10
+[09-Mar-2015 19:10:10 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/theme-compat/comments-popup.php on line 10
+[15-Mar-2015 22:17:09 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/theme-compat/footer.php on line 10

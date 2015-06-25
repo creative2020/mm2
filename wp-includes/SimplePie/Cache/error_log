@@ -1,0 +1,4 @@
+[20-Mar-2015 22:49:32 America/Chicago] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[21-Mar-2015 07:57:34 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[21-Mar-2015 13:14:25 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/SimplePie/Cache/File.php on line 52
+[22-Mar-2015 13:31:47 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/two020cr/public_html/mathmonkeykc.com/wp-includes/SimplePie/Cache/DB.php on line 52

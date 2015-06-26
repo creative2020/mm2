@@ -20,6 +20,7 @@ function tt_register_cpt($single) {
                 'not_found_in_trash' => "No $plural found in Trash",
             ),
             'public' => true,
+            'has_archive' => true,
         )
     );
 }

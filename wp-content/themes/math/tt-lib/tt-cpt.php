@@ -21,6 +21,12 @@ function tt_register_cpt($single) {
             ),
             'public' => true,
             'has_archive' => true,
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+            ),
+            'taxonomies' => array('category'),
         )
     );
 }

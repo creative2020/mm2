@@ -392,6 +392,107 @@ a.side-icon:hover .mm-icon{
     width:100%;
     align-self:center;
 }
+/*Search*/
+#searchform {
+    padding:0.5em 0;
+}
+#searchform label{
+    display:none;
+}
+#searchform input{
+    padding:0.2em 0.5em;
+    font-size:1.5em;
+    border-radius: 8px;
+}
+#searchform input[type=text]{
+    border:1px solid gray;
+    background-color: #FAF7E7;
+}
+#searchform input[type=submit]{
+    border:0px;
+    color:white;
+    padding:0.2em 1.0em;
+    background-color: #79a99c;
+}
+#searchform input[type=submit]:hover{
+    color:white;
+    background-color: #f6b02e;
+}
+.tt-loop {
+    border-left:10px solid transparent;
+    border-bottom:1px solid #cccccc;
+    padding:1.0em;
+    margin-bottom: 0.0em;
+}
+.tt-loop p{
+    color:grey;
+    font-size: 1.1em;
+}
+.tt-loop:hover {
+    opacity:1.0;
+    background-color: #F0F0F0 !important;
+    border-left:10px solid #f6b02e !important;
+}
+.tt-loop:hover i {
+    color: #f6b02e !important;
+}
+.tt-loop ul.post-categories,
+.tt-single ul.post-categories {
+    margin:0.8em 0;
+    list-style-type: none;
+}
+.tt-loop ul.post-categories a,
+.tt-single ul.post-categories a {
+    color:gray;
+    font-size: 1.0em;
+    float:left;
+    text-decoration: underline;
+}
+.tt-loop ul.post-categories a:hover,
+.tt-single ul.post-categories a:hover {
+    background-color: #f6b02e;
+}
+.tt-loop:hover ul.post-categories li a,
+.tt-single:hover ul.post-categories li a{
+    text-decoration: underline !important;
+}
+.tt-loop ul.post-categories li,
+.tt-single ul.post-categories li {
+    padding-left: 0.0em;
+    text-indent: 0.0em;
+    font-size: 1.0em;
+    color: #79a99c;
+}
+.tt-loop ul.post-categories li:before,
+.tt-single ul.post-categories li:before { 
+    font-family: FontAwesome;
+    font-size:1.0em;
+    color:gray;
+    content: '\f08d'; 
+    padding-right:0.2em;
+    float:left;
+}
+.tt-loop ul.post-categories li a,
+.tt-single ul.post-categories li a { 
+    margin-right:1.0em;
+}
+.tt-loop h2 { 
+    padding:0;
+    margin:0;
+}
+.tt-loop ul.post-categories li:last { 
+    clear:both;
+}
+.search {
+    padding: 1.0em 0;
+    background-color: #d0cec0;
+    border-bottom:1.0em solid white;
+    border-top:0.5em solid white;
+    position: relative;
+    z-index: 99;
+}
+
+
 /*Footer*/
 #footer-wrap {
     color:white;
@@ -431,6 +532,7 @@ a.side-icon:hover .mm-icon{
 #copyright a:hover{
     color:#fcda53;
 }
+
 
 
 

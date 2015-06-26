@@ -36,7 +36,7 @@
 
 <div id="content" class="col-sm-12">
 
-	<div class="row"> <!--row-->
+	<div class="row tt-loop"> <!--row-->
 	    <div class="section clearfix">
 	        
 	        <div class="col-sm-12">
@@ -88,7 +88,7 @@
 <!--post-->
 <a href="<?php echo get_the_permalink() ?>">
                     
-    <div class="row tt-search excerpt-<?php echo $cat_name ?>" style="background:<?php echo $bg_color; ?>;">
+    <div class="row tt-loop excerpt-<?php echo $cat_name ?>" style="background:<?php echo $bg_color; ?>;">
         <div class="col-sm-2">
             <?php if ( has_post_thumbnail() ) { ?>
             

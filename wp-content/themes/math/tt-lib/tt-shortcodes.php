@@ -88,6 +88,7 @@ if ( $the_query->have_posts() ) {
          
         
 //HTML
+/*
         
     $output .= '<a href="'.$permalink.'"><div class="list-wrap"><div class="list-img col-xs-12 col-sm-4">';  
     $output .= $image .
@@ -98,6 +99,11 @@ if ( $the_query->have_posts() ) {
                 '</div></div>'.
                 '</a>'.
                 '<div class="clearfix"></div>';
+*/
+
+//default Output HTML
+                // image
+        get_template_part( 'content', 'aha' );
 
 
     }

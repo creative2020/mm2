@@ -40,9 +40,6 @@
             if ( in_category( 'testimonial' ) ) {
                     get_template_part( 'content', 'testimonial' );
                 }
-            else if ( in_category( 'aha' ) ) {
-                    get_template_part( 'content', 'aha' );
-                }
 			else if ( $post_type = 'Aha' ) {
                     get_template_part( 'content', 'aha' );
                 }

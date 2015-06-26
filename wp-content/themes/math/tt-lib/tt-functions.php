@@ -19,8 +19,14 @@ require_once ('tt-shortcodes.php');
 // CPT's
 require_once ('tt-cpt.php');
 
-// Custom fields
-// require_once ('tt-acf-fields.php');
+// Add theme support for featured images
+add_theme_support( 'post-thumbnails' );
+
+// Add feature image sizes
+// add_image_size( square, 400, 400, true );
+
+// Add theme support for shortcodes inside widgets
+add_filter( 'widget_text', 'do_shortcode');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////// Add boostrap from CDN
 
